@@ -13,6 +13,7 @@ import ComponentPage from './ComponentPage';
 import GestureAnimatePage from './GestureAnimatePage';
 import ThirdPartPage from './ThirdPartPage';
 import NativePage from './NativePage';
+import GuidePage from './GuidePage';
 
 const ComponentIcon = require('./imgs/ic_tab_cart.png')
 const ComponentPressIcon = require('./imgs/ic_tab_cart_press.png')
@@ -26,21 +27,21 @@ const NativePressIcon = require('./imgs/ic_tab_order_press.png')
 const Tab = TabNavigator({
         Component : {
             screen : ComponentPage,
-            navigationOptions : () => TabOptions('组件', ComponentIcon, ComponentPressIcon,'组件')
+            navigationOptions : () => TabOptions('组件', ComponentIcon, ComponentPressIcon, '组件')
 
         },
         GestureAnimate : {
             screen : GestureAnimatePage,
-            navigationOptions : () => TabOptions('手势', GestureIcon, GesturePressIcon,'动画与手势')
+            navigationOptions : () => TabOptions('手势', GestureIcon, GesturePressIcon, '动画与手势')
 
         },
         ThirdPart : {
             screen : ThirdPartPage,
-            navigationOptions : () => TabOptions('第三方', ThirdIcon, ThirdPressIcon,'第三方')
+            navigationOptions : () => TabOptions('第三方', ThirdIcon, ThirdPressIcon, '第三方')
         },
         Native : {
             screen : NativePage,
-            navigationOptions : () => TabOptions('原生', NativeIcon, NativePressIcon,'原生')
+            navigationOptions : () => TabOptions('原生', NativeIcon, NativePressIcon, '原生')
         }
         ,
     })
@@ -61,6 +62,7 @@ const TabOptions = (tabTitle, normalImage, selectedImage, title) => {
 }
 
 const App = StackNavigator({
+    Guide : { screen : GuidePage,navigationOptions:{header:null} },
     Tab : { screen : Tab }
 })
 
