@@ -12,6 +12,8 @@ import {
   View
 } from 'react-native';
 
+import App from './src/App';
+
 export default class fcs extends Component {
   render() {
     return (
@@ -50,4 +52,4 @@ const styles = StyleSheet.create({
   },
 });
 
-AppRegistry.registerComponent('fcs', () => fcs);
+AppRegistry.registerComponent('fcs', () => App);
