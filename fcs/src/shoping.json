@@ -1,0 +1,54 @@
+{
+  "datas" : [
+    {
+      "name" : "物品1",
+      "description" : "物品1信息",
+      "money" : 120,
+      "isSelect" : false,
+      "img" : "https://img14.360buyimg.com/n7/jfs/t3151/314/5710217395/97069/4a6f06ef/5881a134Nb7bd8f57.jpg",
+      "count" : 1
+    },
+    {
+      "name" : "物品2",
+      "description" : "物品2信息",
+      "money" : 801,
+      "isSelect" : false,
+      "img" : "https://img10.360buyimg.com/n7/jfs/t4063/153/323373745/444727/87c24f22/58b11156N9be178c2.jpg",
+      "count" : 1
+    },
+    {
+      "name" : "物品3-特色小吃美食美食美食美食美食美食美食美食",
+      "description" : "物品3信息",
+      "money" : 229,
+      "isSelect" : false,
+      "img" : "https://img10.360buyimg.com/n7/jfs/t4063/153/323373745/444727/87c24f22/58b11156N9be178c2.jpg",
+      "count" : 1
+    },
+    {
+      "name" : "物品4",
+      "description" : "物品4信息",
+      "money" : 681,
+      "isSelect" : false,
+      "img" : "https://img10.360buyimg.com/n7/jfs/t4063/153/323373745/444727/87c24f22/58b11156N9be178c2.jpg",
+      "count" : 1
+    },
+    {
+      "name" : "物品5",
+      "description" : "物品5信息",
+      "money" : 178,
+      "isSelect" : false,
+      "img" : "https://img10.360buyimg.com/n7/jfs/t4063/153/323373745/444727/87c24f22/58b11156N9be178c2.jpg",
+      "count" : 1
+    },
+    {
+      "name" : "物品6",
+      "description" : "物品6信息",
+      "money" : 111,
+      "isSelect" : false,
+      "img" : "https://img10.360buyimg.com/n7/jfs/t4063/153/323373745/444727/87c24f22/58b11156N9be178c2.jpg",
+      "count" : 1
+    }
+  ],
+  "isAllSelect" : false,
+  "totalMoney" : 0
+}

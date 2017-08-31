@@ -14,7 +14,8 @@ import GestureAnimatePage from './GestureAnimatePage';
 import ThirdPartPage from './ThirdPartPage';
 import NativePage from './NativePage';
 import GuidePage from './GuidePage';
-
+import ShopingCartPage from './ShopingCartPage';
+import MobxShopPage from './mobx/MobxShopPage';
 
 const ComponentIcon = require('./imgs/ic_tab_cart.png')
 const ComponentPressIcon = require('./imgs/ic_tab_cart_press.png')
@@ -44,7 +45,7 @@ const Tab = TabNavigator({
         screen : NativePage,
         navigationOptions : () => TabOptions('原生', NativeIcon, NativePressIcon, '原生')
     }
-},{
+}, {
     tabBarOptions : {
         activeTintColor : '#FC9831',
         inactiveTintColor : "#999",
@@ -92,9 +93,10 @@ const TabOptions = (tabTitle, normalImage, selectedImage, title) => {
 };
 
 const App = StackNavigator({
-    Guide : { screen : GuidePage, navigationOptions : { header : null } },
+    // Guide : { screen : GuidePage, navigationOptions : { header : null } },
     Tab : { screen : Tab },
-
+    ShopingCart : { screen : ShopingCartPage },
+    MobxShop : { screen : MobxShopPage },
 });
 
 export default App;
